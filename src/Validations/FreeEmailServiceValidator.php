@@ -11,7 +11,7 @@ class FreeEmailServiceValidator extends Validator implements ValidatorInterface
         return 'free_email_provider'; //@codeCoverageIgnore
     }
 
-    public function getResultResponse()
+    public function getResultResponse(): bool
     {
         return in_array(
             $this->getEmailAddress()->getHostPart(),

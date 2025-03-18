@@ -1,7 +1,8 @@
 {
   "name": "daveearley/daves-email-validation-tool",
-  "description": "An easy to use, accurate-ish & extensible email validation library for PHP 7+",
+  "description": "forked from daveearley/daves-email-validation-tool, An easy to use, accurate-ish & extensible email validation library for PHP 8+",
   "type": "library",
+  "version": "1.0.1",
   "keywords": [
     "email validation",
     "email",
@@ -10,7 +11,7 @@
     "disposable email check"
   ],
   "require": {
-    "php": ">=7.4",
+    "php": ">=8.2",
     "ext-json": "*"
   },
   "require-dev": {
