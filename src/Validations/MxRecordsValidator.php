@@ -28,7 +28,7 @@ class MxRecordsValidator extends Validator implements ValidatorInterface
         return count(array_filter($results)) >= 2;
     }
 
-    protected function checkDns(string $host, string $type = null): bool
+    protected function checkDns(string $host, ?string $type = null): bool
     {
         return checkdnsrr($host, $type);
     }
