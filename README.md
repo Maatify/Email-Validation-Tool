@@ -4,7 +4,7 @@
 
 [![codecov](https://codecov.io/gh/daveearley/Email-Validation-Tool/branch/master/graph/badge.svg)](https://codecov.io/gh/daveearley/Email-Validation-Tool/) [![Build Status](https://travis-ci.org/daveearley/Email-Validation-Tool.svg?branch=master)](https://travis-ci.org/daveearley/Email-Validation-Tool) [![Code Climate](https://codeclimate.com/github/daveearley/Email-Validation-Tool/badges/gpa.svg)](https://codeclimate.com/github/daveearley/Email-Validation-Tool/)
 
-**An extensible email validation library for PHP 7+**
+**An extensible email validation library for PHP 8+**
 
 The aim of this library is to offer a more detailed email validation report than simply checking if an email is the valid format, and also to make it possible to easily add custom validations.
 
@@ -26,7 +26,7 @@ Currently this tool checks the following:
 # Installation
 
 ```bash
-composer require daveearley/daves-email-validation-tool
+composer require maatify/daves-email-validation-tool
 ```
 
 # Usage
