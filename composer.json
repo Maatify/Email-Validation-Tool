@@ -1,5 +1,5 @@
 {
-  "name": "daveearley/daves-email-validation-tool",
+  "name": "maatify/daves-email-validation-tool",
   "description": "forked from daveearley/daves-email-validation-tool, An easy to use, accurate-ish & extensible email validation library for PHP 8+",
   "type": "library",
   "version": "1.0.1",
